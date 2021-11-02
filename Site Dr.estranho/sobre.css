@@ -1,0 +1,170 @@
+header{
+    position: fixed;
+    margin-top: -140px;
+    margin-left: 0px;
+}
+
+.formato-header{
+    background: rgba(2, 0, 15, 0.658);
+    padding: 40px;
+   
+    
+}
+
+.ajustador_Pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 1020px;
+    margin-left: 5%;
+   
+}
+
+.ajustador__filho{
+    margin-left: 15%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.tirar-decoraçao{
+    text-decoration: none;
+    color: white;
+}
+
+.tirar-decoraçao:hover{
+border-bottom: white 3px solid;
+}
+
+.nome{
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    left: 20px;
+    margin-top: -7px;
+    font-size: 40px;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(230, 240, 95), rgb(158, 201, 3));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+    
+}
+
+body{
+
+    /*background-image: url("sobre-fundo.jpg");*/
+   background-image: linear-gradient(rgba(10, 1, 51, 0.932),rgba(6, 0, 59, 0.863));
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    margin-top: 140px;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left: 113px;
+}
+
+.subtitulo{
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left:113px;
+}
+
+.primeiro-poster{
+    margin-left:09%;
+    margin-top: 05%;
+    width: 1100px;
+    height: 500px;
+}
+
+.text1{
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left:115px;
+    border: transparent 2px solid;
+    margin-right: 400px;
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.subtitulo2{
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left:113px;
+}
+
+.text2,.text3,.text4,.text5,.text6{
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left:115px;
+    border: transparent 2px solid;
+    margin-right: 400px;
+    line-height: 30px;
+    margin-top: 35px;
+}
+
+.imagem-anciao{
+    width: 800px;
+    height: 300px;
+    margin-left: 113px;
+    margin-top: 30px;
+}
+
+.subtitulo3{
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left:113px;
+}
+
+.imagem-inimigos{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-bottom: -100px;
+    border: rgb(122, 0, 0) 4px solid;
+
+
+}
+
+.imagem-inimigos:nth-child(1){
+    margin-left: 32%;
+}
+
+.imagem-inimigos:hover{
+    transform:scale(1.2);
+}
+
+.pai_imagem-inimigos{
+    display: flex;
+    padding-left: 20px;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 70px;   
+}
+
+.rodape{
+    border: black 4px solid;
+    padding-left: 169px;
+    background-size: cover;
+    height: 160px;
+    background-image:url("imagem-rodape.jpg");
+    margin-top: 100px;
+}
+
+.copyright{
+    text-align: center;
+    margin-right: 190px;
+    margin-top: 80px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
